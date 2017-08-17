@@ -1,0 +1,5 @@
+TIMESTAMP = 1502999455
+SHA256 (freebsd-sgx/optimized_libs-1.9.100.39124.tar) = 239cae39f87934d56c4eb919a4702c6ac82c19957b9a8d56c02b10eb4e27f573
+SIZE (freebsd-sgx/optimized_libs-1.9.100.39124.tar) = 59955200
+SHA256 (freebsd-sgx/bukinr-freebsd-sgx-1.9-35a1069_GH0.tar.gz) = 98476448f683873c1449114066d98e69f5f044b856836b5070aa718c2d207044
+SIZE (freebsd-sgx/bukinr-freebsd-sgx-1.9-35a1069_GH0.tar.gz) = 9525009
