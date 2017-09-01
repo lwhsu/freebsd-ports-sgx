@@ -1,0 +1,17 @@
+--- sdk/cpprt/Makefile.orig	2017-08-19 01:40:03 UTC
++++ sdk/cpprt/Makefile
+@@ -37,14 +37,6 @@ CPPRT    := libcpprt.a
+ CFLAGS   += $(ENCLAVE_CFLAGS)
+ CXXFLAGS += $(ENCLAVE_CXXFLAGS)
+ 
+-CPPFLAGS += -I$(COMMON_DIR)/inc           \
+-            -I$(COMMON_DIR)/inc/tlibc     \
+-            -I$(COMMON_DIR)/inc/stdc++    \
+-            -I$(COMMON_DIR)/inc/internal  \
+-
+-CPPFLAGS += -I$(LINUX_SDK_DIR)/trts       \
+-            -I$(LINUX_SDK_DIR)/trts/linux \
+-
+ CPP_SRCS := $(wildcard memory_manage/new*.cpp) \
+             $(wildcard memory_manage/delete*.cpp)
+ CPP_SRCS += tstdcxx_version.cpp
